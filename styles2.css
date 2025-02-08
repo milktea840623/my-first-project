@@ -1,0 +1,31 @@
+.menu{
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type:none;
+    gap:10px;
+    flex-wrap:wrap;
+}
+.menu li{
+    flex:1 1 calc(25% - 7.5px);
+    text-align:center;
+    background: #004466;
+    color:#00ffa2;
+}
+.menu li.li2{
+    flex:2 1 calc(50% - 5px);
+    background: #00ffa2;
+    color:#004466;
+    text-align:center;
+}   
+.menu li a{
+    display: block;
+    width: 100%;
+    background: #00ffa2;
+    text-decoration: none;
+    color:#004466;
+}
+.menu li a:hover{
+    background: #004466;
+    color:#00ffa2;
+}
