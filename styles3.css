@@ -6,3 +6,17 @@ License: none (public domain)
 *{
     box-sizing: border-box;
 }
+
+div.header {
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+div.header img{
+    width: 100px;
+}
+div.content{
+    display: flex;
+    justify-content: space-between;
+}
